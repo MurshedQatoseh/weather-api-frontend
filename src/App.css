@@ -14,6 +14,7 @@
 }
 
 .App-header {
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  color:black;
+  background-image: url(https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  
+}
+form{
+  text-align: center;
+  padding:100;
+  background-color:gray
+
+}
+form.control name{
+  text-align: center;
+  top: 50;
 }
